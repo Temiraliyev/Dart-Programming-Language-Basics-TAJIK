@@ -1,22 +1,40 @@
 void main() {
   // Tағйирёбандаи int
 
-  int sinnu_sol = 12;
-  int soli_tavallud = 2003;
+  // int sinnu_sol = 12;
+  // int soli_tavallud = 2003;
 
-  print(sinnu_sol);
-  print(soli_tavallud);
+  // print(sinnu_sol);
+  // print(soli_tavallud);
 
-  //Хусусиятҳои int
+  // //Хусусиятҳои int
 
-  int butun = 10;
-  // int dahi = 10.5; // хато
+  // int butun = 10;
+  // // int dahi = 10.5; // хато
 
-  // Мисолҳо
-  int adadi1 = 12;
-  int adadi2 = 13;
-  print(adadi1 + adadi2); // жамъ
-  print(adadi1 - adadi2); // тарх
-  print(adadi1 * adadi2); // зарб
-  print(adadi1 / adadi2); // таксим
+  // // Мисолҳо
+  // int adadi1 = 12;
+  // int adadi2 = 13;
+  // print(adadi1 + adadi2); // жамъ
+  // print(adadi1 - adadi2); // тарх
+  // print(adadi1 * adadi2); // зарб
+  // print(adadi1 / adadi2); // таксим
+  //----------------------------------------------------------------------------
+
+  //                                Вазифаи хонагӣ
+
+  // 1. Савол: Тағирёбандаи бутуни `x` ва `y`ро таъйин кунед ва фарқи байни
+  //    онҳоро чоп кунед.
+
+  int x = 500;
+  int y = 67;
+
+  print(x - y); // фарқи байни x ва y
+
+  // 2. Савол: Арзиши як тағирёбандаи бутунро ба 10 зиёд кунед ва натиҷаро
+  //    чоп кунед.
+
+  int a = 90; // ҳолати аввала а = 90
+  a = a + 10; // дар ин ҳолат а = 100;
+  print("Натиҷа: ${a}"); // Натиҷа: 100
 }
